@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiasa Jana - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/daae61cc6c.js" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+          font-weight: normal; 
+        }
+        h1 span {
+          font-weight: bold; 
+        }
+      </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1 font-weight>Hey there! This is <span>Tiasa,</span><br>
+                    Welcome to my portfolio! Here, you'll find a showcase of my projects, a detailed overview of my skills, my educational background, and my internship experiences. Dive in to explore my journey and see how I've developed my expertise in various domains of technology.
+                </h1>
+            </div>
+
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="tushuuuu.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Tiasa Jana, a fourth-year Information Technology student at VIT Vellore with a strong foundation in Data Structures,
+                         Web Development, Machine Learning, and Game Development.My enthusiasm for technology is matched by
+                          a commitment to continuous learning and excellence in these fields. Alongside my technical skills, 
+                          I have a creative edge and a passion for the arts, particularly dance, where I have showcased
+                           my talent at various events. I am dedicated, responsible, and versatile, balancing my academic pursuits
+                            with artistic endeavors. Click on the links below to know more!</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                                <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                                <p class="tab-links" onclick="opentab('certifications', event)">Certifications</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li>
+                                        <span>Data Structures and Algorithm</span><br>
+                                             Problem solving with optimized time and space complexity
+                                    </li>
+                                    <li>
+                                        <span>Web-Development</span><br>
+                                        Designing web-app interfaces
+                                    </li>
+                                    <li>
+                                        <span>Machine Learning</span><br>
+                                        Developing predictive models and data-driven solutions
+                                    </li>
+                                    <li>
+                                        <span>Cloud Computing</span><br>
+                                        Certified in AWS Cloud and Solutions Architecture, experienced in deploying and managing scalable systems on AWS.
+                                    </li>
+                                    <li>
+                                        <span>Game Development</span><br>
+                                        Developing 2-D Games using Unity and C#
+                                    </li>
+                                    <li>
+                                        <span>Languages Known</span><br>
+                                        English: Professionally Proficient<br>
+                                        Hindi: Professionally Proficient<br>
+                                        Spanish: Beginner<br>
+                                        Bengali: Native
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li>
+                                        <span>B.Tech From VIT Vellore</span><br>
+                                        CGPA: 9.17
+                                    </li>
+                                    <li>
+                                        <span>Higher Secondary (ISC)</span><br>
+                                        Percentage: 92%
+                                        
+                                    </li>
+                                    <li>
+                                        <span>Secondary (ICSE)</span><br>
+                                        Percentage: 96.2%
+                                    </li>
+                                </ul>
+                     
+                            </div>
+                            <div class="tab-contents" id="certifications">
+                                <ul>
+                                    <li>
+                                        <span>AWS Cloud Computing</span><br>
+                                        Score:916
+                                        <br>
+                                        Issued by: Amazon Web Services
+                                    </li>
+                                    <li>
+                                        <span>AWS Solution Architect</span><br>
+                                        Score:725
+                                        <br>
+                                        Issued by: Amazon Web Services
+                                    </li>
+                                    <li>
+                                        <span>Industry 4.0 Technology</span><br>
+                                        Issued by: VIT 
+                                    </li>
+                                </ul>
+                     
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------services=--------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Development</h2>
+                <p>I have extensive expertise in both front-end and back-end web development. My front-end skills include working with HTML, CSS, JavaScript, and modern frameworks like React and Angular to create responsive and user-friendly interfaces. On the back-end, I am proficient in using Node.js, Express, and databases like MongoDB and SQL to build robust and scalable web applications.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>Machine Learning</h2>
+                <p>I have hands-on experience with machine learning, including developing and deploying models for various applications. I am skilled in using Python and libraries such as TensorFlow,Scikit-Learn to implement algorithms for classification, regression, clustering, and more.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Software Development</h2>
+                <p>With a strong foundation in data structures and algorithms, I excel in problem-solving and developing efficient software solutions. I have experience in various programming languages such as Python, Java, and C++. My skills ensure that I can tackle complex challenges and deliver high-quality software products.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Cloud Computing</h2>
+                <p>I am certified in AWS Cloud and Solutions Architecture, demonstrating my proficiency in cloud computing services and architecture design. My knowledge includes deploying, managing, and operating scalable, highly available, and fault-tolerant systems on AWS. I am experienced in leveraging AWS services such as EC2, S3, RDS, and Lambda to create cost-effective and reliable cloud solutions.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            
+            <!-- <a href="#">Learn more</a> -->
+       </div>
+        </div>
+    </div>
+ </div>
+ <!-- -------portfolio------ -->
+  <div id="portfolio">
+    <div class="container">
+        <div class="sub-title">
+            My Projects and Internships
+        </div>
+        <h6>Tap on them to know more</h6>
+        <div class="work-list">
+            <div class="work">
+                <img src="dosen.PNG">
+                <div class="layer">
+                    <h3>Internship:Teminos [year:2023]</h3>
+                    <p> Dosen.io-Learn more Be more</p>
+                    <a href="https://github.com/tiasa2003/Dosen.io-Teminos" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="binary.PNG">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p> Binary Shootout Game</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ai-with-voice-new (1).png">
+                <div class="layer">
+                    <h3>Project 2</h3>
+                    <p> Deep Fake voice Detection</p>
+                    <a href="https://github.com/tiasa2003/Deep-Fake-Voice-vs-Real-Voice" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio.jpeg">
+                <div class="layer">
+                    <h3>Project 3</h3>
+                    <p>Portfolio Website</p>
+                    <a href="https://github.com/tiasa2003/My_Portfolio" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Breast.PNG">
+                <div class="layer">
+                    <h3>Project 4</h3>
+                    <p>Breast Cancer Classification</p>
+                    <a href="https://github.com/tiasa2003/Breast-Cancer-Classification" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- ----------contact---------- -->
+<div id="contact">
+    <div class="conatiner">
+      <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>tiasajana4567@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>+91 7029810844</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/tiasa-jana-841788251/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/tiasa2003"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Tiasa_resumee.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+      </div>  
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tiasa Jana</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }   
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemeu.style.right="0";  
+    }
+    function openmenu()
+    {
+        sidemeu.style.right="-200";
+    }
+</script>
+    </body>
+    </html>
+    
